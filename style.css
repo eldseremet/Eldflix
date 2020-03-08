@@ -1,0 +1,164 @@
+html {
+    background-color: black;
+}
+
+@font-face {
+    font-family: netflixFont;
+    src: url(fonts/bebas-neue.ttf);
+}
+  
+@font-face {
+    font-family: netflixFont;
+    src: url(fonts/bebas-neue.ttf);
+}
+
+h1 {
+    font-family: netflixFont;
+    letter-spacing: 20px;
+}  
+
+h2 {
+    font-family: netflixFont;
+    letter-spacing: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+#navigacija {
+    overflow: hidden;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    position: relative;   
+    
+}
+
+#logo {
+    margin: 50px;
+    float: left;
+    text-align: center;
+}
+
+#search {
+    float: right;
+    margin: 70px;
+    text-align: center;
+}
+
+/* kopirano sa w3schools */
+input#searchInput {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('images/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input#searchInput:focus {
+    width: 350px;
+  }
+
+/* kraj */
+
+#dodajFilm {
+    clear: both;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+#filmForma {
+    background-color: rgba(0, 0, 0, 0.448);
+    padding: 20px;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+hr {
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.527);
+    margin-top: 0px;
+    border: none;
+    clear: both;
+}
+
+
+#slikaDodani {
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+#prviDodani {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+
+}
+
+#dodaniFilmovi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#noviFilm {
+    color: black;
+    margin: 20px;
+    padding: 30px;
+    background: white;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1250px;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    
+}
+
+#footerEldflix {
+    flex: 20%;
+    text-align: center;
+}
+
+#footerONama {
+    flex: 20%;
+    text-align: center;
+}
+#footerKontakt {
+    flex: 20%;
+    text-align: center;
+}
+
+#footerLokacija {
+    flex: 20%;
+    text-align: center;
+}
+

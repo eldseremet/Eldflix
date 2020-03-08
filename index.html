@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eldflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="eldflix">
+        <div id="navigacija">        
+
+            <div id="logo">
+                <img src="images/logo.png">
+            </div>
+            
+            <div id="search">
+                <form>
+                    <input id="searchInput" type="text" name="search" placeholder="Pretraži naslove ..">
+                </form>
+            </div>
+
+            <div id="dodajFilm">
+                <h1 style="font-size: 58px; margin-bottom: 0px;">Dodajte Vaš <br> omiljeni film. </h1> 
+                <h2 style="font-size: 24px; margin-top: 20px; margin-bottom: 50px;">Dodajte Vaš film u samo par koraka</h2>
+
+                <div id="filmForma">
+                    <form id="inputForma">
+                    <p style="margin-bottom: 20px; font-family: netflixFont; letter-spacing: 6px;">Unesite informacije o Vašem filmu u predviđena polja za to :</p>
+                    <input id="naslovFilma" required style="text-align: center; height: 40px; width: 90%;" type="text" placeholder="Unesite naslov filma ..."><br><br>
+                    <input id="godinaFilma" style="text-align: center; height: 40px; width: 44%;" type="number" min="2000" max="2020" placeholder="Unesite godinu izdavanja filma ...">
+                    <input id="ocjenaFilma" style="text-align: center; height: 40px; width: 44%;" type="number" min="1" max="10" placeholder="Unesite Vašu ocjenu od 1 do 10 ..."><br><br>
+                    
+                    <select style="width: 44%; height: 44px;" id="zanrFilma">
+                        <option value="akcija">Akcija</option>
+                        <option value="drama">Drama</option>
+                        <option value="romansa">Romansa</option>
+                        <option value="scifi">Sci-Fi</option>
+                        <option value="komedija">Komedija</option>
+                    </select>
+                    <input id="glumacFilma" style="text-align: center; height: 40px; width: 44%;" type="text" placeholder="Glavni glumac ..."><br><br>
+                    <input id="linkFilma" style="text-align: center; height: 40px; width: 90%;" type="text" placeholder="Unesite link naslovne fotografije ...">
+                    <br><button id="posaljiButton" style="height: 50px; width: 25%; margin-top: 20px; color: white; background-color: #D81F26; border: none;" type="button">POŠALJI FILM</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        
+        <div id="slikaDodani">
+            
+            <img id="dodaniFilmoviSlika" src="images/dodaniFilmovi.png" width="450px">
+        
+        </div>
+        
+        <div id="dodaniFilmovi">      
+        </div>
+
+        <hr>
+
+        <div id="footer">
+            <div id="footerEldflix">
+                <img src="images/logo.png" width="130px" style="margin-bottom: 10px;">
+                <p style="color: white; text-align: justify; width: 200px; margin: auto;">Eldflix je pokušaj kopiranja Netflix aplikacije u svrhe završavanja kinoteke za potrebe IT-Akademije BiH.</p>
+            </div>
+            <div id="footerONama">
+                <img src="images/aboutUs.png" width="150px" style="margin-bottom: 10px;">
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">F.A.Q</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Help Center</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Jobs</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Contact</p>
+
+
+            </div>
+            <div id="footerKontakt">
+                <img src="images/contactUs.png" width="180px" style="margin-bottom: 10px;">
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">F.A.Q</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Help Center</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Jobs</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Contact</p>
+            </div>
+            
+            <div id="footerLokacija">
+                <img src="images/findUs.png" width="130px" style="margin-bottom: 10px;">
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Store locator</p>
+                <p style="color: white; text-align: center; width: 200px; margin: auto;">Near me    </p>            
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
